@@ -116,6 +116,16 @@ left-socials{
   line-height: 24px;
   color: #000000;}
 
+  .hello a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #0C07F2;
+  }
+
   .right-socials a{
     font-family: 'Inter';
     font-style: normal;
@@ -156,4 +166,37 @@ left-socials{
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .box{
+    width: 433px;
+    height: 322px;
+    background: url(image.png);
+    border-radius: 10px;
+    margin: 13px;
+    float: left;
+  }
+
+  .projects-divs{
+    height: 100vh;
+    width: 920px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .box1{
+    background-color: red;
+  }
+
+  .box2{
+    background-color: blue;
+  }
+
+  .box3{
+    background-color: bisque;
+  }
+
+  .box4{
+    background-color: greenyellow;
   }
