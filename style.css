@@ -51,3 +51,11 @@
   height: 50vh;
   margin: auto 5vw;
 }
+
+.line {
+  width: 0px;
+  height: 182.5px;
+  top: 156px;
+  border: 0.7px solid #000000;  
+}
+
