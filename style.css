@@ -77,7 +77,41 @@ left-socials{
     padding: 10px;
   }    
 
-.fa-brands{
+.fa-brands,
+.fa-solid{
   color: #0C07F2;
 }
 
+.content_mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-pic{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./portfolio-assets/Isaac.jpg);
+}
+
+.content_mid h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 90px;
+  color: #000000;
+}
+
+.content_mid p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;}
