@@ -1,4 +1,45 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.header-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 89px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.top-name{
+  align-self: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-items a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding: 8px;
 }
