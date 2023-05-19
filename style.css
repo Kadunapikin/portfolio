@@ -52,10 +52,32 @@
   margin: auto 5vw;
 }
 
+.content_right,
+.content_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .line {
   width: 0px;
   height: 182.5px;
   top: 156px;
   border: 0.7px solid #000000;  
+}
+
+left-socials{
+  position: absolute;
+  align-items: center;
+  }
+
+  .social-icons i {
+    font-size: 18px;
+    padding: 10px;
+  }    
+
+.fa-brands{
+  color: #0C07F2;
 }
 
