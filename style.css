@@ -42,6 +42,7 @@
   line-height: 19px;
   color: #000000;
   padding: 8px;
+  text-decoration: none;
 }
 
 .contents {
@@ -52,8 +53,14 @@
   margin: auto 5vw;
 }
 
-.content_right,
-.content_left {
+.content_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content_right{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -63,8 +70,15 @@
 .line {
   width: 0px;
   height: 182.5px;
-  top: 156px;
   border: 0.7px solid #000000;  
+}
+
+.line-right{
+  width: 0px;
+  border: 0.7px solid #000000;
+  position: absolute;
+  height: 112.51px;
+  position: absolute;
 }
 
 left-socials{
@@ -97,6 +111,7 @@ left-socials{
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/Isaac.jpg);
+  margin-right: 20px;
 }
 
 .content_mid h1 {
@@ -133,27 +148,25 @@ left-socials{
     font-size: 16px;
     line-height: 19px;
     color: #0C07F2;
-    transform: rotate(90deg);  
+    text-decoration: none;
   }
 
   .right-socials{
     transform: rotate(90deg);
+    position: absolute;
+    width: 127px;
+    height: 21px;
+    top: 192px;
   }
 
-  .line-right{
-    width: 0px;
-    height: 152.51px;
-    top: 318.5px;
-    border: 0.7px solid #000000;  
-  }
-
-  .works h4{
+  .works h3{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     font-size: 28px;
     line-height: 42px;
     color: #000000;
+    margin-left: 50px;
   }
 
   .sec2first-divline{
@@ -179,10 +192,12 @@ left-socials{
 
   .projects-divs{
     height: 100vh;
-    width: 920px;
+    width: 60%;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    flex-wrap: wrap;
+    align-self: center;
   }
 
   .box1{
