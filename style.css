@@ -221,3 +221,49 @@ left-socials{
     background-color: greenyellow;
   }
 
+  #toolbox{
+    width: 100px;
+    height: 56px;
+  }
+
+  .html{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/html.png);
+  }
+
+  .css{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/css.png);
+  }
+
+  .javascript{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/javascript.png);
+  }
+
+  .fontawesome{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/fontawesome.png);
+  }
+
+  .bootstrap{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/bootstrap.png);
+  }
+
+  .nodejs{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/nodejs.png);
+  }
+
+  .git{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/git.png);
+  }
