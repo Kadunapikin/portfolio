@@ -8,6 +8,7 @@
     background: #f2f2f2;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
+    margin-bottom: 0;
   }
   
   .header-div{
@@ -85,4 +86,43 @@
     line-height: 24px;
     text-decoration-line: underline;
     color: #0C07F2;
+  }
+
+  .sec2{
+    margin-right: 3%;
+  }
+
+  .sec2line{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    border: 0.7px solid #000000;
+  }
+
+  .sec2footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .copyright{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .handcraft{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-right: 5%;
   }
