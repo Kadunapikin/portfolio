@@ -214,12 +214,11 @@ left-socials{
 
   .tools-container{
     display: flex;
-    margin: 10px;
   }
 
   #toolbox{
     width: 110px;
-    height: 56px;
+    height: 110px;
     margin: 13px;
   }
 
