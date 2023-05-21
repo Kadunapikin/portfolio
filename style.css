@@ -162,16 +162,17 @@ left-socials{
   .sec2-divs{
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
-  h4{
+  .works h4{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     font-size: 28px;
     line-height: 42px;
     color: #000000;
-    margin-right: 300px;
+    margin-right: 720px;
   }
 
   #divline{
@@ -179,12 +180,6 @@ left-socials{
     height: 0px;
     border: 0.7px solid #0000004b;
   }
-
-  /* .sec2first-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
 
   .box{
     width: 433px;
@@ -195,15 +190,11 @@ left-socials{
     float: left;
   }
 
-  /* .projects-divs{
-    height: 100vh;
-    width: 60%;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    flex-wrap: wrap;
-    align-self: center;
-  } */
+  .projects-divs{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+  }
 
   .box1{
     background-color: red;
@@ -221,9 +212,25 @@ left-socials{
     background-color: greenyellow;
   }
 
+  .tools-container{
+    display: flex;
+    margin: 10px;
+  }
+
   #toolbox{
-    width: 100px;
+    width: 110px;
     height: 56px;
+    margin: 13px;
+  }
+
+  .tools h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    margin-right: 830px;
   }
 
   .html{
