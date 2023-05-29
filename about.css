@@ -59,7 +59,8 @@
   }
 
   .about-sec1,
-  .about-sec2{
+  .about-sec2,
+  .about-sec3{
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -118,6 +119,17 @@
     background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/letshego\ fridaypic.jpg);
+    padding: 100px;
+  }
+
+  .about-sec3pic{
+    width: 236px;
+    height: 290px;
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;  
     background-image: url(./portfolio-assets/letshego\ pic.jpg);
     padding: 100px;
   }
+
