@@ -176,35 +176,42 @@ left-socials{
     align-items: center;
   }
 
-  .works h4{
+  .works{
+    align-self: flex-start;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 800;
     font-size: 28px;
+    font-size: 60px;
     line-height: 42px;
     color: #000000;
-    margin-right: 720px;
+    margin-left: 17%;
+    padding: 20px;
   }
 
   #divline{
-    width: 886px;
+    width: 62vw;
     height: 0px;
     border: 0.7px solid #0000004b;
   }
 
   .box{
-    width: 433px;
-    height: 322px;
+    width: 30vw;
+    height: 45vh;    
     background: url(image.png);
     border-radius: 10px;
     margin: 13px;
-    float: left;
   }
 
   .projects-divs{
     display: flex;
     margin: 10px;
     flex-direction: column;
+  }
+
+  .firstrow,
+  .secondrow{
+    display: flex;
+    justify-content: space-between;
   }
 
   .box1{
@@ -225,22 +232,25 @@ left-socials{
 
   .tools-container{
     display: flex;
+    padding-left: 10px;
   }
 
   #toolbox{
-    width: 110px;
-    height: 110px;
-    margin: 13px;
+    width: 8vw;
+    height: 16vh;
+    margin: 10px;
   }
 
-  .tools h4{
+  .tools{
+    align-self: flex-start;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 800;
     font-size: 28px;
+    font-size: 60px;
     line-height: 42px;
     color: #000000;
-    margin-right: 830px;
+    margin-left: 17%;
+    padding: 20px;
   }
 
   .html{
@@ -287,7 +297,7 @@ left-socials{
 
   .sec3{
     margin: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .sec3line{
@@ -324,7 +334,7 @@ left-socials{
     color: #000000;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .header-div{
       display: flex;
       flex-direction: row;
@@ -351,4 +361,42 @@ left-socials{
       display: block;
       text-align: left;
     }
+
+    .tools-container{
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+    }
+
+    #toolbox{
+      width: 60px;
+      height: 60px;
+      margin: 10px;
+    }  
+
+    .projects-divs{
+      display: flex;
+      margin: 10px;
+      flex-direction: column;
+    }
+
+    .firstrow,
+    .secondrow{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+  
+    .box{
+      width: 350px;
+      height: 250px;    
+      border-radius: 10px;
+      margin: 13px;
+    }
+  
+    .tools,
+    .works{
+      margin-left: 14%;
+    }
+  
   }
