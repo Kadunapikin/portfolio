@@ -209,6 +209,15 @@
       text-align: left;
     }
 
+    .nav-items a{
+      display: inline-block;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      padding-block: 2px;
+      font-weight: 400;
+      transition: all 0.7s ease-in-out;
+    }
+
     .about-divs{
       display: flex;
       flex-direction: column;
