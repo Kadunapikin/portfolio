@@ -197,8 +197,8 @@ left-socials{
   .box{
     width: 30vw;
     height: 45vh;    
-    background: url(image.png);
     border-radius: 10px;
+    border: solid black;
     margin: 13px;
   }
 
@@ -215,19 +215,31 @@ left-socials{
   }
 
   .box1{
-    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/capstone\ project.JPG);
   }
 
   .box2{
-    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/etch\ a\ sketch.JPG);
   }
 
   .box3{
-    background-color: bisque;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/rockpaperscissors1.JPG);
   }
 
   .box4{
-    background-color: greenyellow;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-image: url(./portfolio-assets/Landing\ page.JPG);
   }
 
   .tools-container{
