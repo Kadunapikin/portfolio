@@ -28,7 +28,7 @@
 
 ---
 
-![screenshot](https://github.com/Kadunapikin/portfolio-assets/portfolioscreenshot.JPG)<br> 
+![portfolioscreenshot](https://github.com/Kadunapikin/portfolio/assets/107532013/46316ca8-be63-4641-bf38-b6559af07ba0)<br> 
 
 <b>This is a Portfolio Project which contains the documentation of the user portfolio such as</b>
 
