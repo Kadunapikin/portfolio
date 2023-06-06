@@ -66,7 +66,6 @@ To assess this webpage, here are simple steps to follow:
 
 ---
 <h2 id = "usage"><b>Usage</b></h2>
-
 ---
 To access and navigate around this page after executing the steps above, follow the following steps:
 
@@ -76,7 +75,7 @@ To access and navigate around this page after executing the steps above, follow 
 
 3. The contact button or link on the nav bar directs to the contact page containing email, address and phone number.
 
-4. When the screen is at a medium size the nav bar is hidden and the three line option icon by the top right is displayed.
+4. When the screen is at a medium size the nav bar is hidden and the three line option icon by the top right is displayed as shown below: <br> ![mobileportfolioscreenshot](https://github.com/Kadunapikin/portfolio/assets/107532013/dd77530f-3513-47c9-b6dc-77eaf955cd91)
 
 5. When the icon as said in step four above is tapped, it displays navigations.
 
