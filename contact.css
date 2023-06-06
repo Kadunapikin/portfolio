@@ -51,6 +51,23 @@
   color: black;
 }
 
+#navItems a{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+#navItem h3{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+.active{
+  background-color: rgb(231, 219, 219);
+  color: black;
+}
+
 .icon{
   visibility: hidden;
 }

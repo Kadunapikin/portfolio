@@ -51,6 +51,23 @@
   color: black;
 }
 
+.active{
+  background-color: rgb(231, 219, 219);
+  color: black;
+}
+
+#navItems a{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+#navItem h3{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
 .icon{
   visibility: hidden;
 }
@@ -382,7 +399,6 @@ left-socials{
       font-weight: 400;
       transition: all 0.7s ease-in-out;
     }
-
 
     .tools-container{
       display: flex;
