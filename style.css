@@ -437,10 +437,6 @@ align-self: flex-start;
     text-align: center;
   }
 
-  .project-link p{
-  text-align: center;
-}
-
 .works,
 .tools{
   align-self: center;
