@@ -42,7 +42,7 @@
 
 .nav-items a {
   float: left;
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Inter';  
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -80,9 +80,9 @@
 
 .sec1 .section1{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  /* padding: 5% 8%; */
+  margin: auto;
 }
 
 .content_right,
@@ -101,22 +101,44 @@ flex-direction: column;
 .line-right {
   width: 0px;
   height: 152.51px;  
-  border: 0.7px solid #000;
+  border: 0.7px solid #000000; 
+  height: 152.51px;
   margin: 50%;
 }
 
-.left-socials i{
-  padding: 5px;
+.left-socials{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 2rem;
 }
+
+.right-socials{
+  padding: 8px;
+  display: flex;
+}
+
 .right-socials p{
-font-family: sans-serif;
-font-style: normal;
-font-weight: 200;
-font-size: 4px;
-line-height: 5px;
-color: #0C07F2;
-transform: rotate(90deg);
-padding: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0C07F2;
+  transform: rotate(90deg);
+}
+
+.right-socials a{
+  text-decoration: none;
+}
+
+.content_left{
+  margin-left: 2.5rem;
+}
+
+.content_right{
+  margin-top: 10%;
 }
 
 .fa-brands,
@@ -142,20 +164,11 @@ padding: 5px;
 }
 
 .content_mid h1 {
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Poppins';  
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
   line-height: 90px;
-  color: #000;
-}
-
-.content_mid p {
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
   color: #000;
 }
 
@@ -168,7 +181,7 @@ padding: 5px;
 }
 
 .icon-text p{
-font-family: sans-serif;
+font-family: 'Inter';  
 font-size: 15px;
 line-height: 24px;
 letter-spacing: 0em;
@@ -266,12 +279,18 @@ align-self: flex-start;
 
 .tools-container {
   display: flex;
-  padding-left: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 38px;
+  margin-bottom: 204px;
+  width: 63vw;
 }
 
 #toolbox {
-  width: 8vw;
+  width: 16vw;
   height: 16vh;
+  /* width: 85px;
+  height: 46px; */
   margin: 10px;
 }
 
@@ -282,29 +301,34 @@ align-self: flex-start;
   font-size: 28px;
   line-height: 42px;
   margin-left: 17%;
+  margin-top: 77px;
   padding: 20px;
   align-self: flex-start;
   }  
 
 .html {
+  /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/html.png);
 }
 
 .css {
+  /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/css.png);
 }
 
 .javascript {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/javascript.png);
 }
 
 .fontawesome {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/fontawesome.png);
@@ -312,25 +336,23 @@ align-self: flex-start;
 
 .bootstrap {
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/bootstrap.png);
 }
 
 .nodejs {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(./portfolio-assets/nodejs.png);
+  background-image: url(./portfolio-assets/nodejs1.png);
 }
 
 .git {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/git.png);
-}
-
-.sec3 {
-  margin: 10px;
-  padding-top: 10px;
 }
 
 .sec3line {
@@ -344,13 +366,14 @@ align-self: flex-start;
 .sec3footer {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
   margin: 13px;
   padding: 5px;
 }
 
 .copyright {
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Poppins';  
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -359,7 +382,7 @@ align-self: flex-start;
 }
 
 .handcraft {
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Inter';  
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
