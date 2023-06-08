@@ -158,6 +158,7 @@ flex-direction: column;
   height: 160px;
   border-radius: 50%;
   background-color: black;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/Isaac.jpg);
@@ -281,6 +282,7 @@ align-self: flex-start;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-top: 38px;
   margin-bottom: 204px;
   width: 63vw;
@@ -366,31 +368,54 @@ align-self: flex-start;
 .sec3footer {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin: 13px;
-  padding: 5px;
+  justify-content: center;
+  height: 50px;
 }
 
 .copyright {
+  align-self: center;
   font-family: 'Poppins';  
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 17%;
+  margin-top: 10px;
 }
 
 .handcraft {
-  font-family: 'Inter';  
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 12px;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {  
+  .top-name {
+    left: 5%;
+  }
+
+  .tools-container {
+    float: left;
+    flex-wrap: wrap;
+  }
+  
+
+  .sec3footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .copyright {
+    position: relative;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .header-div {
     display: flex;
     flex-direction: row;
@@ -501,5 +526,16 @@ align-self: flex-start;
   .tools,
   .works {
     margin-left: 14%;
+  }
+
+  .sec3footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .copyright {
+    position: relative;
+    align-self: center;
   }
 }
