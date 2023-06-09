@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -25,7 +24,7 @@
 
 .top-name {
   align-self: center;
-  font-family: 'Poppins';  
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -43,7 +42,8 @@
 
 .nav-items a {
   float: left;
-  font-family: 'Inter';  font-style: normal;
+  font-family: sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -80,7 +80,7 @@
 
 .sec1about-me {
   align-self: flex-start;
-  font-family: 'Poppins';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
@@ -123,7 +123,8 @@
 
 .about-sec1text h4,
 .about-sec2text h4 {
-  font-family: 'Inter';  font-style: normal;
+  font-family: sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
@@ -132,7 +133,8 @@
 
 .about-sec1text p,
 .about-sec2text p {
-  font-family: 'Inter';  font-style: normal;
+  font-family: sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -185,7 +187,7 @@
 
 .copyright {
   align-self: center;
-  font-family: 'Poppins';  
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -262,12 +264,13 @@
     display: flex;
     flex-direction: column-reverse;
   }
+
   .sec4footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  
+
   .copyright {
     position: relative;
     align-self: center;
