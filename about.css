@@ -131,7 +131,7 @@ padding: 27px;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/githup.jpg);
   background-position: center;
-  padding: 150px;
+  padding: 100px;
   margin-right: 22px;
 }
 
@@ -167,7 +167,7 @@ padding: 27px;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/letshego\ fridaypic.jpg);
-  padding: 150px;
+  padding: 100px;
   margin-left: 24px;
 }
 
@@ -179,7 +179,7 @@ padding: 27px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(./portfolio-assets/letshego\ pic.jpg);
-  padding: 150px;
+  padding: 100px;
   margin-right: 24px;
 }
 
@@ -205,7 +205,7 @@ padding: 27px;
 
 .copyright {
   align-self: center;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;  
   font-style: normal;
   font-weight: 800;
   font-size: 16px;

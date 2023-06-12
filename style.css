@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
+}
+
+.body {
+  background: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
 }
 
 .header{
@@ -19,7 +29,7 @@ left: 88px;
 }
 
 .top-name h3{
-font-family: 'Poppins, sans-serif';
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
@@ -34,7 +44,7 @@ align-items: center;
 }
 
 .navItems a{
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -171,12 +181,17 @@ margin-top: 103px;
   margin-left: 30px;
 }
   .describe h1{
-    font-family: 'Poppins, sans-serif';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 60px;
     line-height: 90px;
     color: #000000;    
+  }
+
+  .left-socials i,
+  .symbol p{
+    color: #0C07F2;
   }
 
   .laptop{
@@ -211,7 +226,7 @@ margin-top: 103px;
   }
 
   .description p{
-    font-family: 'Inter sans-serif';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -226,7 +241,7 @@ width: 200px;
 height: 24px;
 }
 .readmore a{
-font-family: 'Inter, sans-serif';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -242,7 +257,7 @@ align-items: center;
 }
 
 .works {
-font-family: sans-serif;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 28px;
@@ -342,8 +357,8 @@ margin: 10px;
 }
 
 .tools {
-font-family: sans-serif;
-font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
 font-weight: 800;
 font-size: 28px;
 line-height: 42px;
@@ -417,7 +432,7 @@ height: 50px;
 
 .copyright {
 align-self: center;
-font-family: sans-serif;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 16px;
