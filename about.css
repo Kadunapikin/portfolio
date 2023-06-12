@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
-  padding: 0;
+
+*{
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
 }
 
 .body {
@@ -13,48 +13,56 @@
   height: 100vh;
 }
 
-.header-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 89px;
-  background: #fff;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+.header{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 89px;
+background: #fff;
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.top-name {
-  align-self: center;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 45px;
-  color: #000;
-  position: absolute;
-  left: 10%;
+.top-name{
+position: absolute;
+left: 88px;
 }
 
-.nav-items {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.top-name h3{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+color: #000000; 
 }
 
-.nav-items a {
-  float: left;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000;
-  padding: 8px;
-  text-decoration: none;
+.navItems{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.navItems a{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+text-decoration: none;
+text-align: center; 
+padding: 27px;
 }
 
 .nav-items a:hover {
-  background-color: rgb(150, 139, 139);
-  color: black;
+  background-color: white;
+  color: #0C07F2;  
+}
+
+.active {
+  background-color: rgb(243, 233, 233);
+  color: #0C07F2;  
 }
 
 #navItems a {
@@ -69,25 +77,37 @@
   transition: opacity 1s, transform 1s;
 }
 
-.active {
-  background-color: rgb(231, 219, 219);
-  color: black;
-}
-
 .icon {
   visibility: hidden;
 }
 
 .sec1about-me {
   align-self: flex-start;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;  
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
   line-height: 90px;
   color: #000;
-  margin-left: 18%;
-  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.about-sec1{
+  margin-top: 67px;
+  margin-left: 195px;
+  margin-right: 217px;
+}
+
+.about-sec2{
+  margin-top: 61px;
+  margin-left: 195px;
+  margin-right: 217px;
+}
+
+.about-sec3{
+  margin-top: 64px;
+  margin-left: 195px;
+  margin-right: 217px;
 }
 
 .about-sec1,
@@ -95,16 +115,12 @@
 .about-sec3 {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  align-items: center;
 }
 
 .about_me-divs {
   display: flex;
   flex-direction: row;
   align-content: space-between;
-  width: 64%;
-  padding: 20px;
 }
 
 .about-sec1pic {
@@ -114,16 +130,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/githup.jpg);
-  padding: 100px;
-}
-
-.about-sec1text {
-  padding-left: 20px;
+  background-position: center;
+  padding: 150px;
+  margin-right: 22px;
 }
 
 .about-sec1text h4,
 .about-sec2text h4 {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -133,7 +147,7 @@
 
 .about-sec1text p,
 .about-sec2text p {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -141,8 +155,8 @@
   color: #000;
 }
 
-.p2 {
-  padding-top: 10px;
+.p2{
+  margin-top: 25px;
 }
 
 .about-sec2pic {
@@ -150,9 +164,11 @@
   height: 290px;
   background-color: #000;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(./portfolio-assets/letshego\ fridaypic.jpg);
-  padding: 100px;
+  padding: 150px;
+  margin-left: 24px;
 }
 
 .about-sec3pic {
@@ -161,8 +177,10 @@
   background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-image: url(./portfolio-assets/letshego\ pic.jpg);
-  padding: 100px;
+  padding: 150px;
+  margin-right: 24px;
 }
 
 .sec4 {
@@ -194,8 +212,9 @@
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  left: 19.5%;
   margin-top: 10px;
+  position: absolute;
+  left: 179px;
 }
 
 .handcraft {
@@ -205,13 +224,48 @@
   margin-bottom: 9px;
 }
 
+.handcraft p{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .top-name {
+    left: 5%;
+  }
+  
+  .navItems a{
+    padding: 10px;
+    }  
+
+  .sec4footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+    
+  .copyright {
+    position: relative;
+    align-self: center;
+    left: 5%;
+  }
+}
+  
 @media screen and (max-width: 768px) {
-  .header-div {
+  .header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
   }
-
+  
+  .navItems{
+    flex-direction: column;
+  }
+  
   .nav-items a {
     display: inline-block;
     font-size: 0.8rem;
@@ -220,35 +274,46 @@
     font-weight: 400;
     transition: all 0.7s ease-in-out;
   }
-
+  
   .nav-items a:not(:last-child) { display: none; }
-
+  
   .icon {
     visibility: visible;
   }
-
+  
   .nav-items a.icon {
     float: right;
     display: block;
   }
-
+  
   .nav-items.responsive { position: relative; }
-
+  
   .nav-items.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-
+  
   .nav-items.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
-
+  
+  .nav-items a:hover {
+    background-color: rgba(255, 255, 255, 0.247);
+    color: #0C07F2;  
+  }
+  
   .about-divs {
     display: flex;
     flex-direction: column;
+  }
+
+  .about-sec1pic,
+  .about-sec2pic,
+  .about-sec3pic{
+    margin-bottom: 22px;
   }
 
   .about_me-divs {
@@ -272,7 +337,6 @@
   }
 
   .copyright {
-    position: relative;
-    align-self: center;
+    position: absolute;    
   }
 }
