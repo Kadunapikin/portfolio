@@ -29,6 +29,6 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
-    "node-fetch": "^2.6.11"
+    "node-fetch": "^2.6.6"
   }
 }
