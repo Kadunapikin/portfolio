@@ -9,7 +9,6 @@
 .body {
   background: #f2f2f2;
   font-family: 'Roboto', sans-serif;
-  height: 100vh;
 }
 
 .header {
@@ -511,11 +510,66 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    width: 100%;
   }
+
+  .top-name {
+    position: absolute;
+    left: 10%;
+  }
+
 
   .navItems {
     flex-direction: column;
   }
+
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  
+  .hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+
+  .content_mid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: -20%;
+  }
+
+  .my-pic {
+    width: 160px;
+    height: 160px;
+    left: 0;
+    top: 0;
+  }  
+
+  .line-right {
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    border: 0.7px solid #000;
+    margin: 0;
+  }  
+
+  .line-left {
+    width: 0;
+    height: 0;
+    top: 0;
+    border: 0.7px solid #000;
+    margin-left: 0;
+  }  
 
   .nav-items a {
     display: inline-block;
@@ -564,7 +618,6 @@
   .content_mid {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
 
@@ -586,6 +639,10 @@
     margin-bottom: 137px;
   }
 
+  .sec2-divs {
+    margin-top: -50%;
+  }  
+
   .works,
   .tools {
     align-self: center;
@@ -596,11 +653,13 @@
   .tools {
     padding-top: 77px;
     padding-bottom: 16px;
-  }
+    margin-left: 0;
+  }  
 
   .tools-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
   }
 
   #toolbox {
@@ -612,13 +671,15 @@
   .projects-divs {
     display: flex;
     flex-direction: column;
+    align-content: center;
   }
 
   .firstrow,
   .secondrow {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
   }
 
   .box {

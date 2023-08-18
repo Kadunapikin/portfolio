@@ -128,7 +128,7 @@
   background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(./portfolio-assets/githup.jpg);
+  background-image: url(./portfolio-assets/letshego\ pic.jpg);
   background-position: center;
   padding: 100px;
   margin-right: 22px;
@@ -177,7 +177,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(./portfolio-assets/letshego\ pic.jpg);
+  background-image: url(./portfolio-assets/githup.jpg);
   padding: 100px;
   margin-right: 24px;
 }
@@ -258,7 +258,108 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    /* height: 59px; */
   }
+
+  .top-name {
+    position: absolute;
+    left: 10%;
+  }
+  
+
+  .sec1about-me {
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 16px;
+  }
+  
+  .about-sec1 {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .about-sec2 {
+    margin-top: 61px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .about-sec3 {
+    margin-top: 64px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .about-sec1,
+  .about-sec2,
+  .about-sec3 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about_me-divs {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  }
+  
+  .about-sec1pic {
+    width: 60px;
+    height: 50px;
+    padding: 100px;
+    margin-right: 0;
+    align-self: center;
+  }
+  
+  .about-sec1text h4,
+  .about-sec2text h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+    text-align: center;
+  }
+  
+  .about-sec1text p,
+  .about-sec2text p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+    
+  .about-sec2pic {
+    width: 60px;
+    height: 50px;
+    margin-left: 0;
+    align-self: center;
+  }
+  
+  .about-sec3pic {
+    width: 60px;
+    height: 50px;
+    margin-right: 0;
+    align-self: center;
+  }
+
+  .navItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }  
 
   .navItems {
     flex-direction: column;
@@ -335,6 +436,23 @@
   }
 
   .copyright {
-    position: absolute;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 10%;
+    margin-top: 10px;
   }
+  
+  .handcraft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 9px;
+  }
+ 
 }

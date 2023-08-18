@@ -243,6 +243,11 @@ h1 {
     justify-content: flex-end;
   }
 
+  .top-name {
+    position: absolute;
+    left: 10%;
+  }
+
   .navItems {
     flex-direction: column;
   }
@@ -286,6 +291,56 @@ h1 {
     color: #0c07f2;
   }
 
+  .contact-sec1 {
+    margin-bottom: 6rem;
+  }
+
+  .contact-me {
+    margin-top: 37px;
+    margin-left: 0;
+    align-self: center;
+  }
+  
+  .contact-socials {
+    margin-left: 0;
+    margin-top: 42px;
+    margin-bottom: 161px;
+    align-self: center;
+  }
+
+  .contact-email {
+    margin-left: 75px;
+  }  
+
+  .contact-twitter {
+    margin-left: 65px;
+  }  
+  
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 70px;
+    color: #000;
+    text-align: center;
+  }
+  
+  .contact-me p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  
+
   .contact-socials p {
     font-size: 16px;
   }
@@ -297,6 +352,22 @@ h1 {
   }
 
   .copyright {
-    left: 5%;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 10%;
+    margin-top: 10px;
+  }
+  
+  .handcraft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 9px;
   }
 }
