@@ -56,13 +56,15 @@
 }
 
 .nav-items a:hover {
-  background-color: white;
-  color: #0c07f2;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #0c07f2;
 }
 
 .active {
-  background-color: rgb(243, 233, 233);
+  border-bottom: 3px solid #0c07f2;
   color: #0c07f2;
+  background-color: #f2f2f2;
+  border-radius: 20px;
 }
 
 #navItems a {
