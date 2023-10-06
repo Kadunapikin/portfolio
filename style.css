@@ -4,11 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-.body {
-  background: #f2f2f2;
-  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 .header {
@@ -302,7 +298,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(./portfolio-assets/capstone\ project.JPG);
+  background-image: url(./portfolio-assets/capstone_project.JPG);
   border-top: 20px solid rgb(138, 123, 123);
   border-right: 20px solid rgb(138, 123, 123);
   border-left: 20px solid rgb(138, 123, 123);
@@ -312,7 +308,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(./portfolio-assets/etch\ a\ sketch.JPG);
+  background-image: url(./portfolio-assets/etch_a_sketch.JPG);
   border-top: 20px solid rgb(15, 15, 15);
   border-right: 20px solid rgb(15, 15, 15);
   border-left: 20px solid rgb(15, 15, 15);
@@ -679,7 +675,7 @@
     height: 250px;
   }
 
-  .sec3footer {
+  /* .sec3footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -688,5 +684,32 @@
   .copyright {
     position: relative;
     align-self: center;
+  } */
+
+  .sec3footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
+
+  .copyright {
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 10%;
+    margin-top: 10px;
+  }
+
+  .handcraft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 9px;
+  }
+
 }

@@ -1,6 +1,6 @@
 const menu = document.getElementById('myTopnav');
 const navItems = document.getElementById('navItems').getElementsByTagName('a');
-const navItem = document.getElementById('navItem').getElementsByTagName('h3');
+// const navBarName = document.getElementById('navItem').getElementsByTagName('h3');
 
 function mobileMenu() {
   if (menu.className === 'nav-items') {
@@ -21,11 +21,11 @@ function showNavItems() {
 
 window.addEventListener('load', showNavItems);
 
-function showNavItem() {
-  for (let i = 0; i < navItems.length; i += 1) {
-    navItem[i].style.opacity = '1';
-    navItem[i].style.transform = 'translateY(0)';
-  }
-}
+// function showNavBarName() {
+//   for (let i = 0; i < navItems.length; i += 1) {
+//     navBarName[i].style.opacity = '1';
+//     navBarName[i].style.transform = 'translateY(0)';
+//   }
+// }
 
-window.addEventListener('load', showNavItem);
+// window.addEventListener('load', showNavBarName);

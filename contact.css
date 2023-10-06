@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .body {
@@ -52,11 +53,6 @@
   text-decoration: none;
   text-align: center;
   padding: 27px;
-}
-
-.home {
-  width: 46px;
-  height: 19px;
 }
 
 .nav-items a:hover {

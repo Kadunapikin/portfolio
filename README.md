@@ -151,7 +151,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 - [Zizoh Anto](https://github.com/zizoh)
 - [Anto Akoke Victor](https://github.com/antoHero)
 - [Daniel Samuel](https://github.com/DanSam5K)
-- [Hope Jonah](https://www.)
+- [Hope Jonah](https://www.hopejonah.live)
 
 <u>[Go Back One Step](#contact)</u>
 
