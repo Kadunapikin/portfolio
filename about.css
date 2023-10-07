@@ -67,12 +67,6 @@
   border-radius: 20px;
 }
 
-#navItems a {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 1s, transform 1s;
-}
-
 #navItem h3 {
   opacity: 0;
   transform: translateY(20px);
