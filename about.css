@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 89px;
+  background: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.top-name {
+  position: absolute;
+  left: 88px;
+}
+
+.top-name h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navItems a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 27px;
+}
+
+.nav-items a:hover {
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #0c07f2;
+}
+
+.active {
+  border-bottom: 3px solid #0c07f2;
+  color: #0c07f2;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+#navItem h3 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+.icon {
+  visibility: hidden;
+}
+
+.sec1about-me {
+  align-self: flex-start;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 90px;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.about-sec1 {
+  margin-top: 67px;
+  margin-left: 195px;
+  margin-right: 217px;
+}
+
+.about-sec2 {
+  margin-top: 61px;
+  margin-left: 195px;
+  margin-right: 217px;
+}
+
+.about-sec3 {
+  margin-top: 64px;
+  margin-left: 195px;
+  margin-right: 217px;
+}
+
+.about-sec1,
+.about-sec2,
+.about-sec3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_me-divs {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.about-sec1pic {
+  width: 236px;
+  height: 290px;
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./portfolio-assets/letshego_pic.jpg);
+  background-position: center;
+  padding: 100px;
+  margin-right: 22px;
+}
+
+.about-sec1text h4,
+.about-sec2text h4 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+}
+
+.about-sec1text p,
+.about-sec2text p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.p2 {
+  margin-top: 25px;
+}
+
+.about-sec2pic {
+  width: 236px;
+  height: 290px;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./portfolio-assets/letshego_fridaypic.jpg);
+  padding: 100px;
+  margin-left: 24px;
+}
+
+.about-sec3pic {
+  width: 236px;
+  height: 290px;
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./portfolio-assets/githup.jpg);
+  padding: 100px;
+  margin-right: 24px;
+}
+
+.sec4 {
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.sec4line {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  left: 0;
+  border: 0.7px solid #000;
+}
+
+.sec4footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+}
+
+.copyright {
+  align-self: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  margin-top: 10px;
+  left: 179px;
+}
+
+.handcraft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.handcraft p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .top-name {
+    left: 5%;
+  }
+
+  .navItems a {
+    padding: 10px;
+  }
+
+  .sec4footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .copyright {
+    position: relative;
+    align-self: center;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .top-name {
+    position: absolute;
+    left: 10%;
+  }
+
+  .sec1about-me {
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 16px;
+  }
+
+  .about-sec1 {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-sec2 {
+    margin-top: 61px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-sec3 {
+    margin-top: 64px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-sec1,
+  .about-sec2,
+  .about-sec3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_me-divs {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+  .about-sec1pic {
+    width: 60px;
+    height: 50px;
+    padding: 100px;
+    margin-right: 0;
+    align-self: center;
+  }
+
+  .about-sec1text h4,
+  .about-sec2text h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+    text-align: center;
+  }
+
+  .about-sec1text p,
+  .about-sec2text p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .about-sec2pic {
+    width: 60px;
+    height: 50px;
+    margin-left: 0;
+    align-self: center;
+  }
+
+  .about-sec3pic {
+    width: 60px;
+    height: 50px;
+    margin-right: 0;
+    align-self: center;
+  }
+
+  .navItems {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav-items a {
+    display: inline-block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding-block: 2px;
+    font-weight: 400;
+    transition: all 0.7s ease-in-out;
+  }
+
+  .nav-items a:not(:last-child) { display: none; }
+
+  .icon {
+    visibility: visible;
+  }
+
+  .nav-items a.icon {
+    float: right;
+    display: block;
+  }
+
+  .nav-items.responsive { position: relative; }
+
+  .nav-items.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .nav-items.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-items a:hover {
+    background-color: rgba(255, 255, 255, 0.247);
+    color: #0c07f2;
+  }
+
+  .about-divs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-sec1pic,
+  .about-sec2pic,
+  .about-sec3pic {
+    margin-bottom: 22px;
+  }
+
+  .about-sec1text {
+    padding-left: 0;
+  }
+
+  #column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sec4footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .copyright {
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 10%;
+    margin-top: 10px;
+  }
+
+  .handcraft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 9px;
+  }
+}
